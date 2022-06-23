@@ -2,14 +2,14 @@ import os
 import time
 
 
-def sensor():
-    while 10 < 50:
+def show_network():
+    while 1 < 2:
         os.system("ifconfig")
         time.sleep(1)
         os.system("clear")
 
 try:
-    sensor()
+    show_network()
 
 except KeyboardInterrupt:
     print("você encerrou o programa")
