@@ -1,3 +1,11 @@
+'''
+Author: www.github.com/JuanBindez
+Description: loops linux's ifconfig command for easy viewing
+Python Version: 3.10
+year: 2022
+Local: Brazil
+'''
+
 import os
 import time
 
